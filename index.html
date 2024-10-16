@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .contenedor-flexible{
+            display : flex;
+            flex-direction : row;
+            justify-content: flex-start; /*como dispone al eje principal*/
+            align-items: center; /*como dispone al eje transversal*/
+            flex-wrap: wrap-reverse;
+
+        }
+        /*-----------------------------------------------------
+        .uno{
+            background-color: red;
+            width : 150px;
+            height: 150px;
+            color : white;
+        }
+        .dos{
+            background-color: orange;
+            width : 150px;
+            height: 150px;
+            color : white;
+        }
+        .tres{
+            background-color: violet;
+            width : 150px;
+            height: 150px;
+            color : white;
+        }
+        .cuatro{
+            background-color: blue;
+            width : 150px;
+            height: 150px;
+            color : white;
+        }
+        -----------------------------------------------------------------*/
+        .uno, .cinco{
+            background-color: red;
+            width : 150px;
+            height: 70px;
+            color : white;
+        }
+        .dos, .seis{
+            background-color: orange;
+            width : 150px;
+            height: 170px;
+            color : white;
+        }
+        .tres, .siete{
+            background-color: violet;
+            width : 150px;
+            height: 130px;
+            color : white;
+        }
+        .cuatro{
+            background-color: blue;
+            width : 150px;
+            height: 250px;
+            color : white;
+        }
+    </style>
+</head>
+<body>
+    <!----------------------------------------------------------------------
+    <div class = "contenedor-flexible">
+        <div class = "contenedor-flexible uno">Elemento 1</div>
+        <div class = "contenedor-flexible dos">Elemento 2</div>
+        <div class = "contenedor-flexible tres">Elemento 3</div>
+        <div class = "contenedor-flexible cuatro">Elemento 4</div>
+    </div>
+    -->
+
+    <div class = "contenedor-flexible">
+        <div class = "contenedor-flexible uno">Elemento 1</div>
+        <div class = "contenedor-flexible dos">Elemento 2</div>
+        <div class = "contenedor-flexible tres">Elemento 3</div>
+        <div class = "contenedor-flexible cuatro">Elemento 4</div>
+        <div class = "contenedor-flexible cinco">Elemento 5</div>
+        <div class = "contenedor-flexible seis">Elemento 6</div>
+        <div class = "contenedor-flexible siete">Elemento 7</div>
+    </div>
+</body>
+</html>
